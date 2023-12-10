@@ -72,7 +72,7 @@ export const perfumeData = [
   {
     marca: "Diesel",
     nombre: "Living for successful",
-    precio: 0,
+    precio: 1300,
     disponible: true,
     imagen: "/images/perfume01.png",
   },
