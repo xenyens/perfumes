@@ -13,6 +13,7 @@ const HomePage = () => {
             precio={perfume.precio}
             disponible={perfume.disponible}
             imagen={perfume.imagen}
+            capacidad={perfume.capacidad}
           />
         ))}
       </div>

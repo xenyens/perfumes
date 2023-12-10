@@ -5,6 +5,7 @@ export const perfumeData = [
     precio: 700,
     disponible: true,
     imagen: "/images/hollister.png",
+    capacidad: 100,
   },
   {
     marca: "Tommy Hilfiger",
@@ -12,6 +13,7 @@ export const perfumeData = [
     precio: 800,
     disponible: false,
     imagen: "/images/tommy.png",
+    capacidad: 100,
   },
   {
     marca: "DOLCE & GABBANA",
@@ -19,6 +21,7 @@ export const perfumeData = [
     precio: 2100,
     disponible: false,
     imagen: "/images/dolce-light-woman.png",
+    capacidad: 200,
   },
   {
     marca: "Lanvin - Paris",
@@ -26,6 +29,7 @@ export const perfumeData = [
     precio: 1000,
     disponible: true,
     imagen: "/images/lanvin.png",
+    capacidad: 100,
   },
   {
     marca: "Perry Ellis",
@@ -33,6 +37,7 @@ export const perfumeData = [
     precio: 800,
     disponible: true,
     imagen: "/images/360.png",
+    capacidad: 100,
   },
   {
     marca: "Lanvin - Paris",
@@ -40,6 +45,7 @@ export const perfumeData = [
     precio: 1200,
     disponible: true,
     imagen: "/images/lanvin-girl.png",
+    capacidad: 90,
   },
   {
     marca: "Dolce & Gabbana",
@@ -47,6 +53,7 @@ export const perfumeData = [
     precio: 2000,
     disponible: true,
     imagen: "/images/dolce-devotion.png",
+    capacidad: 100,
   },
   {
     marca: "Dolce & Gabbana",
@@ -54,6 +61,7 @@ export const perfumeData = [
     precio: 1500,
     disponible: true,
     imagen: "/images/dolce-light-man.png",
+    capacidad: 125,
   },
   {
     marca: "Carlo Corinto",
@@ -61,6 +69,7 @@ export const perfumeData = [
     precio: 1200,
     disponible: true,
     imagen: "/images/one-woman.png",
+    capacidad: 100,
   },
   {
     marca: "Carlo Corinto",
@@ -68,6 +77,7 @@ export const perfumeData = [
     precio: 1200,
     disponible: true,
     imagen: "/images/carlo-man.png",
+    capacidad: 100,
   },
   {
     marca: "Diesel",
@@ -75,6 +85,7 @@ export const perfumeData = [
     precio: 1300,
     disponible: true,
     imagen: "/images/diesel.png",
+    capacidad: 100,
   },
   {
     marca: "Billie Eilish",
@@ -82,6 +93,7 @@ export const perfumeData = [
     precio: 1400,
     disponible: true,
     imagen: "/images/billie.png",
+    capacidad: 100,
   },
   {
     marca: "Versace",
@@ -89,6 +101,7 @@ export const perfumeData = [
     precio: 1800,
     disponible: true,
     imagen: "/images/versace.png",
+    capacidad: 100,
   },
   {
     marca: "Chrome",
@@ -96,6 +109,7 @@ export const perfumeData = [
     precio: 1400,
     disponible: true,
     imagen: "/images/crome.png",
+    capacidad: 100,
   },
   {
     marca: "Coach Dreams",
@@ -103,6 +117,7 @@ export const perfumeData = [
     precio: 1000,
     disponible: true,
     imagen: "/images/coach-solo.png",
+    capacidad: 100,
   },
   {
     marca: "MontBlanc Explorer",
@@ -110,6 +125,7 @@ export const perfumeData = [
     precio: 1000,
     disponible: true,
     imagen: "/images/montblanc.png",
+    capacidad: 100,
   },
   {
     marca: "Kate Spade",
@@ -117,6 +133,7 @@ export const perfumeData = [
     precio: 1000,
     disponible: true,
     imagen: "/images/kate.png",
+    capacidad: 100,
   },
   {
     marca: "COACH DREAMS",
@@ -124,5 +141,14 @@ export const perfumeData = [
     precio: 1500,
     disponible: true,
     imagen: "/images/coach-estuche.png",
+    capacidad: 100,
+  },
+  {
+    marca: "Lanvin",
+    nombre: "Eclat",
+    precio: 1000,
+    disponible: false,
+    imagen: "/images/eclat.png",
+    capacidad: 100,
   },
 ];
