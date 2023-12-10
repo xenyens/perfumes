@@ -16,7 +16,7 @@ export default function Tarjeta({ marca, nombre, precio, disponible, imagen }) {
             disponible ? "text-green-300" : "text-red-800"
           } font-bold uppercase`}
         >
-          {disponible ? "Disponible" : "Agostado"}
+          {disponible ? "Disponible" : "Vendido"}
         </small>
       </div>
       <div className="">
