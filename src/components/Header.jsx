@@ -7,7 +7,7 @@ const lexend = Lexend({ weight: "600", subsets: ["latin"] });
 const Header = () => {
   return (
     <header className="flex flex-col items-center font-bold uppercase p-24">
-      <h1 className={`${lexend.className} text-2xl text-white`}>Catálogo</h1>
+      <h1 className={`${lexend.className} text-2xl`}>Catálogo</h1>
     </header>
   );
 };

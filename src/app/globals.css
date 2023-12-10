@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 body {
-  background: rgb(1, 1, 1);
-  background: linear-gradient(
-    166deg,
-    rgba(1, 1, 1, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
 }
 
 .tarjeta {
