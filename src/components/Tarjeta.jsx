@@ -1,5 +1,6 @@
 import { currency } from "@/helper/currency";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Tarjeta({
@@ -35,6 +36,13 @@ export default function Tarjeta({
           width={270}
           height={270}
         />
+      </div>
+      <div className="p-2 bg-gray-400 mt-2 w-full rounded-lg text-center hover:bg-gray-600 hover:text-white">
+        <Link
+          href={`https://wa.me/526461954586?text=Me interesa este producto:${marca} - $${precio}`}
+        >
+          Más info
+        </Link>
       </div>
     </div>
   );
