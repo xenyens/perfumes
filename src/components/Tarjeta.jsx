@@ -12,7 +12,7 @@ export default function Tarjeta({
   capacidad,
 }) {
   return (
-    <div className="tarjeta flex flex-col justify-center rounded-md p-12 max-w-[300px] h-[500px]">
+    <div className="tarjeta flex flex-col justify-center rounded-md p-12 max-w-[300px] h-[500px] ">
       <div className="space-y-3">
         <div>
           <p className="text-xl uppercase font-bold">{marca}</p>
@@ -27,7 +27,7 @@ export default function Tarjeta({
               disponible
                 ? "text-green-600 bg-green-200"
                 : "text-red-800 bg-red-100"
-            }  uppercase rounded-md p-2`}
+            }  uppercase rounded-md p-2 text-center`}
           >
             {disponible ? "Disponible" : "Vendido"}
           </small>
@@ -37,7 +37,7 @@ export default function Tarjeta({
               className=" bg-red-400  rounded-md hover:bg-red-600 uppercase border-none"
               href={`https://wa.me/526461954586?text=Hola que tal, me interesa este producto:${marca} - ${nombre} - $${precio}`}
             >
-              <p className="text-sm p-2 font-semibold text-red-900">
+              <p className="text-sm p-2 font-semibold text-red-900 hover:text-white text-center">
                 INFORMACIÓN
               </p>
             </Link>
