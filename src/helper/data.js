@@ -35,7 +35,7 @@ export const perfumeData = [
     marca: "Perry Ellis",
     nombre: "360° Red - CABALLERO",
     precio: 800,
-    disponible: true,
+    disponible: false,
     imagen: "/images/360.png",
     capacidad: 100,
   },
