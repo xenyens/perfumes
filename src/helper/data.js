@@ -16,7 +16,7 @@ export const perfumeData = [
     capacidad: 100,
   },
   {
-    marca: "DOLCE & GABBANA",
+    marca: "DOLCE GABBANA",
     nombre: "Light Blue - Dama",
     precio: 2100,
     disponible: false,
@@ -48,7 +48,7 @@ export const perfumeData = [
     capacidad: 90,
   },
   {
-    marca: "Dolce & Gabbana",
+    marca: "Dolce Gabbana",
     nombre: "Devotion",
     precio: 2000,
     disponible: true,
@@ -56,7 +56,7 @@ export const perfumeData = [
     capacidad: 100,
   },
   {
-    marca: "Dolce & Gabbana",
+    marca: "Dolce Gabbana",
     nombre: "Light Blue - Caballero",
     precio: 1500,
     disponible: true,
