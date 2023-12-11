@@ -39,7 +39,7 @@ export default function Tarjeta({
       </div>
       <div className="p-2 bg-gray-400 mt-2 w-full rounded-lg text-center hover:bg-gray-600 hover:text-white">
         <Link
-          href={`https://wa.me/526461954586?text=Me interesa este producto:${marca} - $${precio}`}
+          href={`https://wa.me/526461954586?text=Hola que tal, me interesa este producto:${marca} - ${nombre} - $${precio}`}
         >
           Más info
         </Link>
